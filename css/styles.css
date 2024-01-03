@@ -188,6 +188,18 @@ h3 {
 .hero {
   background-color: #2e2f42;
   padding: 188px 0;
+
+
+  background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)), url(../images/hero/people-office.jpg);
+   
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+
 }
 
 .hero-title {
@@ -254,6 +266,7 @@ button:focus {
 .ourteam-item {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .ourteam-content {
   display: flex;
@@ -284,6 +297,11 @@ button:focus {
   width: 360px;
 }
 
+.portfolio-item:hover,
+.portfolio-item:focus {
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+
+} 
 .portfolio-content {
   display: flex;
   border: 1px solid #e7e9fc;
@@ -322,7 +340,6 @@ margin-top: 32px;
   margin-bottom: 16px;
 }
 .logo-light {
-  
   color: #f4f4fd;
 }
 
